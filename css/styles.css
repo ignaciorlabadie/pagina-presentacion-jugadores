@@ -1,0 +1,26 @@
+:root {
+  /* Fondos */
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+
+  /* Texto */
+  --text-primary: #f1f5f9;
+  --text-secondary: #cbd5f5;
+  --text-muted: #94a3b8;
+
+  /* Acentos */
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+}
+
+body {
+    background-color: var(--bg-primary);
+}
+
+header {
+    border: 2px solid var(--bg-tertiary);
+}
